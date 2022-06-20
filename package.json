@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "description": "Assignment",
   "main": "index.js",
+  "engines": {
+    "node": "v14.17.3",
+    "npm":"6.14.13"
+  },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Bharat",
